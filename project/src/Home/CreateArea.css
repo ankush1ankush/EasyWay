@@ -1,0 +1,38 @@
+
+.create-note {
+   
+    position: relative;
+    display:flex;
+    max-width: 480px;
+    min-width: 320px;
+    margin: 30px auto 20px auto;
+    background: #fff;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+  }
+  .create-note input,
+  .create-note textarea {
+    width: 100%;
+    border: none;
+    padding: 4px;
+    outline: none;
+    font-size: 1.2em;
+    font-family: inherit;
+    resize: none;
+  }
+  .create-note button {
+    position: absolute;
+    right: 18px;
+    bottom: -18px;
+    background: #7C78B8;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    outline: none;
+  }
+  
